@@ -122,4 +122,8 @@ h1 {
     #bottom-imgs{
         margin-top: 0;
     }
+
+    .navbar-toggler{
+        border: none;
+    }
 }
