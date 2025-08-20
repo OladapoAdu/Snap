@@ -126,4 +126,8 @@ h1 {
     .navbar-toggler{
         border: none;
     }
+
+    .navbar-toggler:active{
+        border: none;
+    }
 }
