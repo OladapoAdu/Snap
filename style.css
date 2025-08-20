@@ -104,3 +104,17 @@ h1 {
   font-size: 60px;
   font-weight: bold;
 }
+
+
+
+
+/* MEDIA QUERY ADJUSTMENTS */
+@media(max-width:576px){
+    h1{
+        margin-top: 50px;
+    }
+
+    .learn-more-btn{
+        width: 100%;
+    }
+}
