@@ -1,0 +1,106 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-custom {
+  background-color: white !important;
+  color: black;
+  padding: 0;
+  width: 80%;
+
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.container-fluid{
+    width: 95%;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link{
+    color: grey;
+    transition: ease-out 0.3s;
+}
+
+.nav-link:hover{
+    color: black;
+    transition: ease-in 0.3s;
+}
+
+
+
+span{
+    margin-left: 10px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* width: 20%; */
+}
+
+#register-btn{
+    border-radius: 10%;
+    border: 1px solid gray;
+    color: gray;
+    transition: 0.5s ease-in;
+}
+
+#register-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s ease-out;
+}
+
+#login-btn{
+    border: none;
+    color: gray;
+    transition: 0.5s ease-in;
+}
+
+#login-btn:hover{
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.learn-more-btn{
+    width: 30%;
+    border: 1px solid;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+
+.learn-more-btn:hover{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+}
+
+#bottom-imgs{
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.bottom-img{
+    width: 60px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
