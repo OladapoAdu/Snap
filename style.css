@@ -116,5 +116,10 @@ h1 {
 
     .learn-more-btn{
         width: 100%;
+        margin-bottom: 0;
+    }
+
+    #bottom-imgs{
+        margin-top: 0;
     }
 }
